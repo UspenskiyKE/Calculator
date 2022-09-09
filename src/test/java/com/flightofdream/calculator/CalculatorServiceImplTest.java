@@ -73,7 +73,7 @@ public class CalculatorServiceImplTest {
   assertEquals(result, z,0);
  }
 
- 
+
  @Test
  public void calcDivide4() {
   Throwable exception = assertThrows(
