@@ -25,9 +25,9 @@ public class CalculatorServiceImpl implements CalculatorService{
     }
 
     public double calcDivide(double num1, double num2) {
-
+        if(num2!=0){
         double result = num1 / num2;
-        return  result;
+        return  result;}else{throw new DivisionByZeroException("Division By Zero Error!");}
     }
 
 
